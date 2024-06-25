@@ -83,4 +83,8 @@ document.addEventListener('DOMContentLoaded', function () {
     function isOperator(value) {
         return value === '+' || value === '-' || value === '*' || value === '/';
     }
+    
+    const copyrightElement = document.getElementById('copyright');
+    const currentYear = new Date().getFullYear();
+    copyrightElement.textContent = `© Nehemiah ${currentYear}`;
 });

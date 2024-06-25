@@ -48,3 +48,10 @@ button {
 .zero-button {
     grid-column: span 2;
 }
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px; 
+    color: #555;
+}
